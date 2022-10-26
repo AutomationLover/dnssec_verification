@@ -1,4 +1,4 @@
-wwwwang2@F9TLF7H19L ~ % dig net ds +dnssec @a.root-servers.net
+~ % dig net ds +dnssec @a.root-servers.net
 
 ; <<>> DiG 9.10.6 <<>> net ds +dnssec @a.root-servers.net
 ;; global options: +cmd
