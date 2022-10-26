@@ -1,0 +1,23 @@
+wwang2@F9TLF7H19L ~ % dig net  dnskey +dnssec @192.5.6.30
+;; Warning: Message parser reports malformed message packet.
+
+; <<>> DiG 9.10.6 <<>> net dnskey +dnssec @192.5.6.30
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65032
+;; flags: qr aa rd; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+;; WARNING: Message has 27 extra bytes at end
+
+;; QUESTION SECTION:
+;net.				IN	DNSKEY
+
+;; ANSWER SECTION:
+net.			86400	IN	DNSKEY	257 3 8 AQOYBnzqWXIEj6mlgXg4LWC0HP2n8eK8XqgHlmJ/69iuIHsa1TrHDG6T cOra/pyeGKwH0nKZhTmXSuUFGh9BCNiwVDuyyb6OBGy2Nte9Kr8NwWg4 q+zhSoOf4D+gC9dEzg0yFdwT0DKEvmNPt0K4jbQDS4Yimb+uPKuF6yie WWrPYYCrv8C9KC8JMze2uT6NuWBfsl2fDUoV4l65qMww06D7n+p7Rbdw WkAZ0fA63mXVXBZF6kpDtsYD7SUB9jhhfLQE/r85bvg3FaSs5Wi2BaqN 06SzGWI1DHu7axthIOeHwg00zxlhTpoYCH0ldoQz+S65zWYi/fRJiyLS Bb6JZOvn
+net.			86400	IN	DNSKEY	256 3 8 AQO0wh8cBZHDse9ep/3UHa7hA+7BCTcAY9A7aZzaqZtbmsOP3FFxo1F9 2oQOklU3uFxzAUbQxKGHud1DxAV4u1ZUJgcrfSLbK2mC3tIdw7hWASqP l5KgWFnpO77zoEdbQmI8Jwjx56DiXDVq2fdUV8M8hEAwza9y0unybkwi v89y2mpfljdnmRkJttBGFnqdgI4Un+UZoop40TOBVAc/nl7r
+
+;; Query time: 53 msec
+;; SERVER: 192.5.6.30#53(192.5.6.30)
+;; WHEN: Tue Oct 25 17:38:41 AEDT 2022
+;; MSG SIZE  rcvd: 512
+

@@ -1,0 +1,24 @@
+~$ dig . dnskey +dnssec @i.root-servers.net.
+
+; <<>> DiG 9.11.3-1ubuntu1.18-Ubuntu <<>> . dnskey +dnssec @i.root-servers.net.
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40975
+;; flags: qr aa rd; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; COOKIE: 2d33e8f2ec86453e0100000063576f631346b75ba62671fd (good)
+;; QUESTION SECTION:
+;.				IN	DNSKEY
+
+;; ANSWER SECTION:
+.			172800	IN	DNSKEY	257 3 8 AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTOiW1vkIbzxeF3 +/4RgWOq7HrxRixHlFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8Og8kv ArMtNROxVQuCaSnIDdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLrjyBxWezF 0jLHwVN8efS3rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eNbuv7pr+e oZG+SrDK6nWeL3c6H5Apxz7LjVc1uTIdsIXxuOLYA4/ilBmSVIzuDWfd RUfhHdY6+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa8subX2Nn6UwN R1AkUTV74bU=
+.			172800	IN	DNSKEY	256 3 8 AwEAAeB54o2xvW6vY4qQZ0krDsEZCe6MsRWCqsXd4+cNJZMePnlV/xwD rIbbeH1SJzv742rOHzgAKM1/3SQHHSkoEIPx8XQdHAZBxfhaXl3e8c5W rE3aGXS5AeTWAkt85ccqWgKyitxjFmJEOol0BqS2xueltaDwgWcC10nP UY+y5l/kTOYyptYQS4gg1uJNXIob/R1XIEJ10ZCurkYqZxgqyHc7tZv0 9N23o9rnGdjnYiArH7FjlXD8Rvjde8YWkmfdbCEWnchrnxDK8KV2/ZvB pG/WYnRKXYPUceGCw59OJdJ5M7utkm547RB3eEd8CVVhbXopZlsKq3GC rBwaIVe9ci0=
+.			172800	IN	RRSIG	DNSKEY 8 0 172800 20221111000000 20221021000000 20326 . gSeakWuKbWv2PyNYNbCcFEcUaLuviREP0hhzU+c1iSv/501be5LN8NXk Mmdn41/5tGiLcei/B7iMlu00gIwEkLVz4ACMk4EqwIbXWTEzKx00Z610 wZso6IRGiqV+zMbF2TjyFkw0R/TX39/RbEuyAbeeYEyrmOTimJzrQ4+M D72CFTjCKnVxEyKyrY5CffNygc+1v5a8UL31GPjHc1Auxu1dLSurFaHs x5B0sI7quxRChInFVa2QXSw8TtKly8wVW8u+5GGtSRoy4/OLCKLA63wv X4IZq/Cw2ZRdvG9QSrycoAX9KrWZKnNzy+HJMGYlkQtDVUrBeYTC2KjE jNsueg==
+
+;; Query time: 2 msec
+;; SERVER: 192.36.148.17#53(192.36.148.17)
+;; WHEN: Tue Oct 25 05:08:14 UTC 2022
+;; MSG SIZE  rcvd: 893

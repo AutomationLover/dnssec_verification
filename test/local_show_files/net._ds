@@ -1,0 +1,22 @@
+wwwwang2@F9TLF7H19L ~ % dig net ds +dnssec @a.root-servers.net
+
+; <<>> DiG 9.10.6 <<>> net ds +dnssec @a.root-servers.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62953
+;; flags: qr aa rd; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;net.				IN	DS
+
+;; ANSWER SECTION:
+net.			86400	IN	DS	35886 8 2 7862B27F5F516EBE19680444D4CE5E762981931842C465F00236401D 8BD973EE
+net.			86400	IN	RRSIG	DS 8 1 86400 20221107050000 20221025040000 18733 . qasoVKiUD84SpwVX4Xoq60ub6cgLrbIZT0EFEh0B1EAtixbBjL+LIMny LjaHwm7DOekOOyxHFqEEx2Fe6i3cJgZgUo8uSZ/c3Z1xWxTxQygpYfyM ENmC6o4nwc23fhZPZRVj/RShD/gZt0AZmVIkTcaBLLrSuMAm70q0SC1i vJJS8siNppWdnmFRxZXlC8T9RfNwVyJR1TcSTnvSTsTtMXLuAgOmOrF4 Xyzqxh8RHmepN0h7htNa0JikFaN65uzmsJQATHRvw9bZD28nAk1DIVjQ Jq3+0zrQcoq6PudHkYSLwT5n8m4rSubI/TRnCFCehZ+h2/4mTlX8nptu zueMrw==
+
+;; Query time: 141 msec
+;; SERVER: 198.41.0.4#53(198.41.0.4)
+;; WHEN: Tue Oct 25 17:55:52 AEDT 2022
+;; MSG SIZE  rcvd: 367
